@@ -15,4 +15,3 @@ data = response.json()
 temprature = data["current"]["temperature_2m"]
 
 print(f"Temperature is: {temprature}°C")
-

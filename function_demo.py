@@ -2,6 +2,7 @@ def greet():
     print("Hello, welcome to the function demo!")
     pass
 
+
 greet()
 
 
@@ -14,14 +15,15 @@ def check_weather(temp):
         print(f"Temprture is good{temp}")
 
 
-check_weather(77)    
+check_weather(77)
 
 
 def return_multiple_function():
-    numb = [1,2,3,4,5,6]
-    first_number=numb[0]
-    last_number=numb[-1]
+    numb = [1, 2, 3, 4, 5, 6]
+    first_number = numb[0]
+    last_number = numb[-1]
     return first_number, last_number
+
 
 first, last = return_multiple_function()
 
